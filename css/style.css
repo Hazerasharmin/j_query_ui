@@ -1,0 +1,136 @@
+#draggable {
+  padding: 0.5em; 
+}
+
+
+#draggable2 { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+  #droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+
+
+
+ #resizable { width: 150px; height: 150px; padding: 0.5em; }
+  #resizable h3 { text-align: center; margin: 0; }
+
+.resize{
+  margin-top: 222px;
+}
+
+
+
+#feedback { font-size: 1.4em; }
+  #selectable .ui-selecting { background: #FECA40; }
+  #selectable .ui-selected { background: #F39814; color: white; }
+  #selectable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #selectable li { margin: 3px; padding: 0.4em; font-size: 1.4em; height: 50px; }
+
+
+
+
+   #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 50px; }
+  #sortable li span { position: absolute; margin-left: -1.3em; }
+
+
+  #sortable2 { list-style-type: none; margin: 0; padding: 0; width: 450px; }
+  #sortable2 li { margin: 3px 3px 3px 0; padding: 1px; float: left; width: 100px; height: 90px; font-size: 4em; text-align: center; }
+  
+
+  .s_portlet{
+    margin-top: 350px;
+
+  }
+  .column {
+    width: 170px;
+    float: left;
+    padding-bottom: 100px;
+  }
+  .portlet {
+    margin: 0 1em 1em 0;
+    padding: 0.3em;
+  }
+  .portlet-header {
+    padding: 0.2em 0.3em;
+    margin-bottom: 0.5em;
+    position: relative;
+  }
+  .portlet-toggle {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -8px;
+  }
+  .portlet-content {
+    padding: 0.4em;
+  }
+  .portlet-placeholder {
+    border: 1px dotted black;
+    margin: 0 1em 1em 0;
+    height: 50px;
+  }
+
+
+  .accordion{
+    margin-top: 350px;
+  }
+
+
+ .shape {
+      margin-left: 4em;
+      margin-top: 2.5em;
+      height: 8em;
+      width: 8em;
+      box-shadow: 4px 4px 8px;
+      color: #ccc;
+      background-repeat: no-repeat;
+      background-size: 90%;
+      background-position: 50%;
+    }
+    .circle, .pill {
+      border-radius: 8em;
+    }
+    .pill, .rectangle {
+      width: 16em;
+    }
+    .square, .circle {
+      margin-left: 9em;
+    }
+    .border {
+      border: 2px solid #333333;
+    }
+    .toggles {
+      width: 200px;
+    }
+    .toggle-wrap, .shape {
+      display: inline-block;
+      vertical-align: top;
+    }
+    .controls {
+      background: #ccc;
+      padding: 1em;
+      display: inline-block;
+    }
+
+
+    .ui-menu { width: 150px; }
+
+     label {
+    display: inline-block;
+    width: 5em;
+  }
+
+
+  
+ .custom-colorize {
+    font-size: 20px;
+    position: relative;
+    width: 75px;
+    height: 75px;
+  }
+  .custom-colorize-changer {
+    font-size: 10px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+

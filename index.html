@@ -1,0 +1,546 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Jquery Ui</title>
+    <!-- font links -->
+    <link  rel="stylesheet"  href="https://api.jqueryui.com/resources/icons-list.html"> 
+    <!-- css links -->
+    <link rel="stylesheet" href="css/code.jquery.com_ui_1.13.2_themes_base_jquery-ui.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+  </head>
+  <body>
+    <div class="container">  
+      <h1>1)Draggable</h1>
+      <div id="draggable" class="ui-widget-content">
+        <img src="images/fountain.jpg" class="img-fluid" alt="fountain">
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="container">
+
+      <h1>2)Droppable</h1>
+      <div id="draggable2" class="ui-widget-content">
+        <p>Drag me to my target</p>
+      </div>
+ 
+      <div id="droppable" class="ui-widget-header">
+        <p>Drop here</p>
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="container">  
+  
+      <h1 class="resize">3)Resizable</h1>
+      <div id="resizable" class="ui-widget-content">
+        <h3 class="ui-widget-header">Resizable</h3>
+      </div>
+
+    </div>
+
+    <hr>
+
+  <div class="container"> 
+
+    <h1>4)Selectable</h1>
+
+    <ol id="selectable">
+      <li class="ui-widget-content">Item 1</li>
+      <li class="ui-widget-content">Item 2</li>
+      <li class="ui-widget-content">Item 3</li>
+      <li class="ui-widget-content">Item 4</li>
+      <li class="ui-widget-content">Item 5</li>
+      <li class="ui-widget-content">Item 6</li>
+      <li class="ui-widget-content">Item 7</li>
+    </ol>
+  </div>  
+  <hr>
+
+  <div class="container">
+    <h1>Sortable</h1>
+    
+
+    <ul id="sortable">
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+    </ul>
+
+
+  </div>
+
+  <hr>
+
+  <div class="container">
+    <h1>sortable(display as grid)</h1>
+    <ul id="sortable2">
+      <li class="ui-state-default">1</li>
+      <li class="ui-state-default">2</li>
+      <li class="ui-state-default">3</li>
+      <li class="ui-state-default">4</li>
+      <li class="ui-state-default">5</li>
+      <li class="ui-state-default">6</li>
+      <li class="ui-state-default">7</li>
+      <li class="ui-state-default">8</li>
+      <li class="ui-state-default">9</li>
+      <li class="ui-state-default">10</li>
+      <li class="ui-state-default">11</li>
+      <li class="ui-state-default">12</li>
+    </ul>
+    
+  </div>
+
+  <hr>
+
+  <div class="container">
+    <h1 class="s_portlet">Sortable portlets"</h1>
+
+    <div class="column">
+ 
+      <div class="portlet">
+        <div class="portlet-header">Feeds</div>
+        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+      </div>
+     
+      <div class="portlet">
+        <div class="portlet-header">News</div>
+        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+      </div>
+     
+    </div>
+     
+    <div class="column">
+     
+      <div class="portlet">
+        <div class="portlet-header">Shopping</div>
+        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+      </div>
+     
+    </div>
+     
+    <div class="column">
+     
+      <div class="portlet">
+        <div class="portlet-header">Links</div>
+        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+      </div>
+     
+      <div class="portlet">
+        <div class="portlet-header">Images</div>
+        <div class="portlet-content">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</div>
+      </div>
+     
+    </div>
+     
+  </div>
+
+  <hr>
+  
+
+  <div class="container">
+    <h1 class="accordion">Accordion</h1>
+    <h2>Pakistan</h2>
+    
+        <p>Throughout Pakistan, as in most agrarian societies, family organization is strongly patriarchal, and most people live with large extended families, often in the same house or family compound. The eldest male, whether he is the father, grandfather, or paternal uncle, is the family leader and makes all significant decisions regarding the family and its members. Traditionally, a woman’s place in society has been secondary to that of men, and she has been restricted to the performance of domestic chores and to fulfilling the role of a dutiful wife and mother. However, in the Punjab, cotton picking is exclusively a woman’s job, and women may keep the money thus earned for their own purposes.In wealthy peasant and landowner households and in urban middle-class families, the practice of keeping women in seclusion (purdah) is still common; when women leave their houses, they typically cover their heads. Among the rural poor, women have duties on the farm as well as in the house and do not customarily observe purdah. Houses of those who practice purdah have a men’s section (mardānah) at the front of the house, so that visitors do not disturb the women, who are secluded in the women’s section (zanānah) in the rear. Women’s subordinate status in Pakistan also is evident in the practice of “honour killings,” in which a woman may be killed by a male relative if she is thought to have brought dishonour on the family or clan.</p>
+
+
+
+
+
+
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- Carousel start -->
+          <div id="cid" class="carousel slide" data-bs-ride="carousel">
+          <!--indicator  -->
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#cid" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#cid" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#cid" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#cid" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              </div>
+            <!-- inner start -->
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="5000">
+                <img src="images/p1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/p2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/p3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>  
+              <div class="carousel-item">
+                <img src="images/p4.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Last slide label</h5>
+                  <p>Some representative placeholder content for the last slide.</p>
+                </div>
+              </div>
+            </div>
+            <!-- control -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#cid" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#cid" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+         
+         <!-- Carousel end-->
+        </div>
+      </div>
+       <h1></h1>
+       <p>Pakistani cuisine also has affinities with that of India. Curry dishes are common, as are a variety of vegetables, including potatoes, eggplant, and okra. Each region (and, often, each household) has its own preferred mixture of spices—the term masala is used to describe such a mixture. In addition to the many spices that are also associated with other countries of South Asia, yogurt is a common ingredient. Favourite meats include chicken, mutton, and lamb. Lentils are a standard dish, and various types of wheat bread are the national staple. The most common breads are chapati (unleavened flat bread) and naan (slightly leavened). Pakistanis drink a great deal of hot tea (chai), and lassi (a type of yogurt drink), sherbet, and lemonade are popular. As in most Muslim countries, alcoholic beverages are considered culturally inappropriate, but there are several domestic breweries and distilleries.</p>
+
+
+    <div id="accordion">
+      <h3>What is Pakistani culture?</h3>
+      <div>
+        <p>
+        Pakistan has a collectivist culture in the sense that people are deeply interdependent and loyal to those who are in their inner circle. Social connections are essential to daily life, as citizens have often had to rely on themselves instead of their government for support and opportunities.
+        </p>
+      </div>
+      <h3>What is the natural beauty of Pakistan?</h3>
+      <div>
+        <p>
+        
+        Explore Pakistan's wildest, most beautiful landscapes Snowcapped Himalayan peaks, rare brown bears, and otherworldly rock formations dazzle travelers to this stunning part of the world. From the precipitous peaks of the Karakoram range to the fertile Indus River plain, Pakistan is home to a diversity of stunning landscapes.Aug 16, 2022
+        </p>
+      </div>
+      <h3>What is the unique thing in Pakistan?</h3>
+      <div>
+        <p>
+        World's second largest salt mines (Khewra Mines) are located in Pakistan. The world's famous pink Himalayan salt is also mined in Pakistan. The highest polo ground in the world is in Shandur, Pakistan. Pakistan is the only Muslim nuclear power country in the world.
+        </p>
+      </div>
+       <h3>Why is Pakistani food famous?</h3>
+      <div>
+        <p>
+        
+        While very similar to Indian cuisine, its unique taste comes from centuries of Islamic traditions mixed with various flavors brought by invaders like the Mongol empire, Persians, Turks, and more! The combination of aromas and spices makes Pakistani cuisine genuinely unique from the rest of the world.Oct 7, 2022.
+        </p>
+        
+        <ul>
+          <li>1.Biryani. This dish is perhaps the best-known of the bunch. ...</li>
+          <li>2.Beef Kebab. Another famous Pakistani food is the Beef Kebab, which is well-seasoned beef grilled to succulent perfection. ...</li>
+          <li>3.Chicken Tikka. ...</li>
+        </ul>
+      </div>
+      <h3>What are the characteristics of Pakistan people?</h3>
+      <div>
+        <p>
+        Pakistanis are a passionate, emotional, expressive and colourful people – just like their culture. Whatever they love, they do with plenty of zest and excitement.
+        </p>
+        <p>
+        Pakistan is an Islamic Republic, meaning Islam is the official religion and laws are written to be consistent with its teachings. The state religion is central to daily life in Pakistan; mosques are located in almost every neighbourhood and the call to prayer is heard throughout urban areas five times a day.
+        </p>
+      </div>
+    </div>
+    
+  </div>
+
+  <hr>
+
+  <div class="container">
+    <h1>Autocomplete</h1>
+      <form>
+    <div class="mb-3">
+      <label for="c_name" class="form-label">Enter your courses name</label>
+      <input type="text" class="form-control" id="c_name" >
+    </div>
+  </div>
+  <hr>
+
+  <div class="container">
+    <h1>Checkboxradio</h1>
+  
+    <div class="widget">
+      <h2>Radio Group</h2>
+      <fieldset>
+        <legend>Select a Location: </legend>
+        <label for="radio-1">New York</label>
+        <input type="radio" name="radio-1" id="radio-1">
+        <label for="radio-2">Paris</label>
+        <input type="radio" name="radio-1" id="radio-2">
+        <label for="radio-3">London</label>
+        <input type="radio" name="radio-1" id="radio-3">
+      </fieldset>
+     
+      <h2>Checkbox</h2>
+      <fieldset>
+        <legend>Hotel Ratings: </legend>
+        <label for="checkbox-1">2 Star</label>
+        <input type="checkbox" name="checkbox-1" id="checkbox-1">
+        <label for="checkbox-2">3 Star</label>
+        <input type="checkbox" name="checkbox-2" id="checkbox-2">
+        <label for="checkbox-3">4 Star</label>
+        <input type="checkbox" name="checkbox-3" id="checkbox-3">
+        <label for="checkbox-4">5 Star</label>
+        <input type="checkbox" name="checkbox-4" id="checkbox-4">
+      </fieldset>
+     
+      <h2>Checkbox nested in label</h2>
+      <fieldset>
+        <legend>Bed Type: </legend>
+        <label for="checkbox-nested-1">2 Double
+          <input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1">
+        </label>
+        <label for="checkbox-nested-2">2 Queen
+          <input type="checkbox" name="checkbox-nested-2" id="checkbox-nested-2">
+        </label>
+        <label for="checkbox-nested-3">1 Queen
+          <input type="checkbox" name="checkbox-nested-3" id="checkbox-nested-3">
+        </label>
+        <label for="checkbox-nested-4">1 King
+          <input type="checkbox" name="checkbox-nested-4" id="checkbox-nested-4">
+        </label>
+      </fieldset>
+    </div>
+  </div>
+
+  <hr>
+  <div class="container">
+    
+    <h1>Checkboxradio</h1>
+    <div class="controls">
+      <div class="brand-wrap">
+        <h3>1.) Select a brand</h3>
+        <div class="brand">
+          <label for="brand-jquery">jQuery</label>
+          <input type="radio" name="brand" id="brand-jquery" data-background-color="#0769AD" data-color="#7ACEF4" data-background-image="url(images/jquery.png)">
+          <label for="brand-jquery-ui">jQuery UI</label>
+          <input type="radio" name="brand" id="brand-jquery-ui" data-background-color="#B24926" data-color="#FAA523" data-background-image="url(images/jquery-ui.png)" checked>
+          <label for="brand-jquery-mobile">jQuery Mobile</label>
+          <input type="radio" name="brand" id="brand-jquery-mobile" data-background-color="#108040" data-color="#3EB249" data-background-image="url(images/jquery-mobile.png)">
+          <label for="brand-sizzle">Sizzle</label>
+          <input type="radio" name="brand" id="brand-sizzle" data-background-color="#9A1B1E" data-color="#FAA523" data-background-image="url(images/sizzle.png)">
+          <label for="brand-qunit">QUnit</label>
+          <input type="radio" name="brand" id="brand-qunit" data-background-color="#390F39" data-color="#9C3493" data-background-image="url(images/qunit.png)">
+        </div>
+      </div>
+      <div class="shape-wrap">
+        <h3>2.) Select a shape</h3>
+        <div class="shape-bar">
+          <label for="shape-circle">Circle</label>
+          <input type="radio" name="shape" id="shape-circle" value="circle" checked>
+          <label for="shape-square">Square</label>
+          <input type="radio" name="shape" id="shape-square" value="square">
+          <label for="shape-pill">Pill</label>
+          <input type="radio" name="shape" id="shape-pill" value="pill">
+          <label for="shape-rectangle">Rectangle</label>
+          <input type="radio" name="shape" id="shape-rectangle" value="rectangle">
+        </div>
+      </div>
+      <div class="toggle-wrap">
+        <h3>3.) Customize</h3>
+        <div class="toggles">
+          <label for="color">Shadow</label>
+          <input class="toggle brand-toggle" type="checkbox" name="color" id="color">
+          <label for="border">Border</label>
+          <input class="toggle" type="checkbox" name="border" id="border">
+          <label for="background-color">Background</label>
+          <input class="toggle brand-toggle" type="checkbox" name="background-color" id="background-color" checked>
+          <label for="background-image">Background Image</label>
+          <input class="toggle brand-toggle" type="checkbox" name="background-image" id="background-image" checked>
+        </div>
+      </div>
+      <div class="shape circle background jquery-ui"></div>
+    </div>
+  </div>
+
+
+  <hr>
+
+  <div class="container">
+    <h1>Datepicker</h1>
+    <p>Date: <input type="text" id="datepicker"></p>
+
+  </div>
+
+  <hr>
+
+  <div class="container">
+    <h1>Menu</h1>
+    <ul id="menu">
+      <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+      <li><div>Books</div></li>
+      <li><div>Clothing</div></li>
+      <li><div>Electronics</div>
+        <ul>
+          <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+          <li><div>Car Hifi</div></li>
+          <li><div>Utilities</div></li>
+        </ul>
+      </li>
+      <li><div>Movies</div></li>
+      <li><div>Music</div>
+        <ul>
+          <li><div>Rock</div>
+            <ul>
+              <li><div>Alternative</div></li>
+              <li><div>Classic</div></li>
+            </ul>
+          </li>
+          <li><div>Jazz</div>
+            <ul>
+              <li><div>Freejazz</div></li>
+              <li><div>Big Band</div></li>
+              <li><div>Modern</div></li>
+            </ul>
+          </li>
+          <li><div>Pop</div></li>
+        </ul>
+      </li>
+      <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+    </ul>
+  </div>
+
+  <hr>
+  <div class="container">
+    <h1>Tabs</h1>
+    <div id="tabs">
+      <ul>
+        <li><a href="#tabs-1">Nunc tincidunt</a></li>
+        <li><a href="#tabs-2">Proin dolor</a></li>
+        <li><a href="#tabs-3">Aenean lacinia</a></li>
+      </ul>
+      <div id="tabs-1">
+        <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+      </div>
+      <div id="tabs-2">
+        <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+      </div>
+      <div id="tabs-3">
+        <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+        <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  <div class="container">
+    <h1>Tooltip</h1>
+
+    <p><a href="#" title="That&apos;s what this widget is">Tooltips</a> can be attached to any element. When you hover
+    the element with your mouse, the title attribute is displayed in a little box next to the element, just like a native tooltip.</p>
+    <p>But as it&apos;s not a native tooltip, it can be styled. Any themes built with
+    <a href="http://jqueryui.com/themeroller/" title="ThemeRoller: jQuery UI&apos;s theme builder application">ThemeRoller</a>
+    will also style tooltips accordingly.</p>
+    <p>Tooltips are also useful for form elements, to show some additional information in the context of each field.</p>
+    <p><label for="age">Your age:</label><input id="age" title="We ask for your age only for statistical purposes."></p>
+    <p>Hover the field to see the tooltip.</p>
+        
+  </div>
+  <hr>
+
+  <div class="container">
+    <h1>Add Class</h1>
+     
+    <div class="toggler">
+      <div id="effect" class="ui-corner-all">
+          Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede.
+      </div>
+    </div>
+ 
+    <button id="button" class="ui-state-default ui-corner-all">Run Effect</button>
+ 
+  </div>
+  <hr>
+
+  <!-- <div class="container">
+    <h1>Color Animation</h1>
+    <div class="toggler">
+      <div id="effect" class="ui-widget-content ui-corner-all">
+        <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+        <p>
+          Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+        </p>
+      </div>
+    </div>
+     
+    <button id="button2" class="ui-state-default ui-corner-all">Toggle Effect</button>
+     
+  </div> -->
+
+  <hr>
+
+  <div class="container">
+    <h1>Easing</h1>
+    <div id="graphs"></div>
+  </div>
+  <hr>
+
+ 
+
+  <hr>
+
+  <div class="container">
+    <h1>Widget Factory</h1>
+     
+    <div>
+      <div id="my-widget1">color me</div>
+      <div id="my-widget2">color me</div>
+      <div id="my-widget3">color me</div>
+      <button id="disable">Toggle disabled option</button>
+      <button id="green">Go green</button>
+    </div>
+ 
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+  
+
+
+
+    <!-- Js links -->
+  <script src="js/jquery-3.7.0.min.js"></script> 
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
